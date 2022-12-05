@@ -18,3 +18,17 @@
 
 ### generate parameters file for bicep file
     az bicep generate-params -f example.bicep
+
+## git
+
+### show git username
+    git config user.name
+
+### show git email
+    git config user.email
+
+### change git username
+    git config --global user.name "Your Name"
+
+### change git email
+    git config --global user.email "youremail@yourdomain.com"
