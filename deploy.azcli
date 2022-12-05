@@ -1,0 +1,7 @@
+$rg-name="bicep-vm"
+$rg-location="switzerlandnorth"
+
+# Create a new resource group
+az group create -n $rg-name -l $rg-location
+
+az deployment group create -g $rg-name -f atest.bicep -p parameter.json

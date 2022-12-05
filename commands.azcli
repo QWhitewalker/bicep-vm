@@ -1,0 +1,20 @@
+# list of usefull commands
+
+## azure cli
+
+### list resource groups
+    az group list -o table
+
+### delete resource group
+    az group delete --name $rg-name --yes
+
+## bicep
+
+### show bicep commands
+    az bicep -h
+
+### decompile ARM-Template
+    az bicep decompile -f example.json
+
+### generate parameters file for bicep file
+    az bicep generate-params -f example.bicep
