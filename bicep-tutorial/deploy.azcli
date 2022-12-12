@@ -1,0 +1,11 @@
+$rgName="bicep-tutorial"
+$rgLocation="switzerlandnorth"
+
+# create resource group
+az group create --name $rgName --location $rgLocation
+
+# deploy template
+az deployment group create --resource-group $rgName --template-file bicep-tutorial\main.bicep --parameters bicep-tutorial\main.parameters.json
+
+# delete resource group
+az group delete --name $rgName
