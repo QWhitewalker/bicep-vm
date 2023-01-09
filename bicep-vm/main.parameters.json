@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "switzerlandnorth"
+    },
+    "vmSubnetNetwork": {
+      "value": "192.168.1.0/24"
+    },
+    "vmPrivateIP": {
+      "value": "192.168.1.10"
+    },
+    "vmName": {
+      "value": "vmga"
+    },
+    "vmSize": {
+      "value": "Standard_D2s_v3"
+    },
+    "adminUsername": {
+      "value": "admin.ga"
+    },
+    "vmDiskSize": {
+      "value": 150
+    }
+  }
+}
