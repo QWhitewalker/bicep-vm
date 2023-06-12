@@ -4,7 +4,7 @@ The goal of this project is to create a bicep file that creates a normal windows
 
 ## github
 
-In a first step i created this github repository. Markus Seeli helped me with that and explained some core concepts to me.
+In a first step i created this github repository.
 
 Before cloning the created repository i changed my git e-mail and username to the ones i use on github. (see command in **./commands.azcli** under **git**)
 
